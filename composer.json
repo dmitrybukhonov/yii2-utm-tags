@@ -1,0 +1,32 @@
+{
+  "name": "dmitrybukhonov/yii2-utm-tags",
+  "type": "yii2-extension",
+  "description": "Yii2 tracking utm metrics",
+  "keywords": [
+    "utm"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dmitrybukhonov",
+  "authors": [
+    {
+      "name": "Dmitry Bukhonov",
+      "email": "d.buhonov@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/dmitrybukhonov/yii2-utm-tags"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "dmitrybukhonov\\service\\": "./src"
+    }
+  }
+}
